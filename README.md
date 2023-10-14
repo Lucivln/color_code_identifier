@@ -31,30 +31,30 @@ python color_mod.py
 ```
 
 * The app will open a graphical user interface (GUI) window.
-* Click the "Browse" button to select an image.
+* Click the `Browse` button to select an image.
 * The app will extract the dominant colors from the image and display them in a list within the GUI.
-* The color information is also stored in a MySQL database named "colordb" for future reference.
+* The color information is also stored in a MySQL database named `colordb` for future reference.
 
 ### Code Explanation
 
 The code for the app is organized as follows:
 
 * It establishes a connection to a MySQL database where color data will be stored.
-* It creates a table named 'ColorData' in the database to store image paths, color names, and color codes.
-* The 'ColorExtractorApp' class contains methods for extracting, displaying, and storing color information.
-* The 'browse_image' method allows users to select an image, and then it calls the 'extract_colors' and 'store_color_data' methods.
-* The 'extract_colors' method uses the k-means clustering algorithm to find dominant colors in the selected image.
-* The 'display_color_info' method displays the dominant colors in the GUI.
-* The 'store_color_data' method stores color information in the MySQL database.
-* The 'view_data' method retrieves and displays stored color data from the database.
-* The main function initializes the tkinter window, creates an instance of the ColorExtractorApp class, and displays any existing color data.
+* It creates a table named `ColorData` in the database to store image paths, color names, and color codes.
+* The `ColorExtractorApp` class contains methods for extracting, displaying, and storing color information.
+* The `browse_image` method allows users to select an image, and then it calls the `extract_colors` and `store_color_data` methods.
+* The `extract_colors` method uses the k-means clustering algorithm to find dominant colors in the selected image.
+* The `display_color_info` method displays the dominant colors in the GUI.
+* The `store_color_data` method stores color information in the MySQL database.
+* The `view_data` method retrieves and displays stored color data from the database.
+* The main function initializes the tkinter window, creates an instance of the `ColorExtractorApp` class, and displays any existing color data.
 
 ### Customization
 
-* You can customize the GUI icon by replacing 'your custom icon' with the path to your own image icon in the code.
+* You can customize the GUI icon by replacing `your custom icon` with the path to your own image icon in the code.
 * Make sure to update the database connection details by providing your MySQL username and password in the conn variable.
 * If you want to use the webcolors library for color naming, make sure it is installed.
-* The code currently extracts the top 5 dominant colors; you can change the value in the num_colors_to_extract parameter when calling extract_colors.
+* The code currently extracts the top 5 dominant colors; you can change the value in the `num_colors_to_extract` parameter when calling `extract_colors`.
 
 ### Conclusion
 
