@@ -9,7 +9,7 @@ To run this app, you will need the following:
 * Python 3.6 or later
 * The `tkinter` library
 * The `opencv-python` library
-* The mysql-connector-python library (for MySQL database interaction)
+* The `mysql-connector-python` library (for MySQL database interaction)
 * The `webcolors` library (optional)
 
 ### Installation
@@ -47,7 +47,7 @@ The code for the app is organized as follows:
 * The `display_color_info` method displays the dominant colors in the GUI.
 * The `store_color_data` method stores color information in the MySQL database.
 * The `view_data` method retrieves and displays stored color data from the database.
-* The main function initializes the tkinter window, creates an instance of the `ColorExtractorApp` class, and displays any existing color data.
+* The main function initializes the `tkinter` window, creates an instance of the `ColorExtractorApp` class, and displays any existing color data.
 
 ### Customization
 
