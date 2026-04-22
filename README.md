@@ -51,7 +51,6 @@ The code for the app is organized as follows:
 * The main function initializes the `tkinter` window, creates an instance of the `ColorExtractorApp` class, and displays any existing color data.
 
 ### Customization
-
 * You can customize the GUI icon by replacing `your custom icon` with the path to your own image icon in the code.
 * Make sure to update the database connection details by providing your MySQL username and password in the conn variable.
 * If you want to use the webcolors library for color naming, make sure it is installed.
