@@ -59,5 +59,6 @@ The code for the app is organized as follows:
 
 ### Conclusion
 
+
 This simple but useful app can be used to extract and store dominant colors from images. It offers an easy-to-use interface and is suitable for users with various levels of technical expertise. You can further customize the app, including adding your custom icon for a personalized touch.
 This app provides a simple but useful way to extract and store dominant colors from images and can be easily used by individuals with various levels of technical expertise.
