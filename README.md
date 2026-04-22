@@ -7,6 +7,7 @@ This is a simple Python application that extracts the dominant colors from an im
 
 To run this app, you will need the following:
 
+
 * Python 3.6 or later
 * The `tkinter` library
 * The `opencv-python` library
