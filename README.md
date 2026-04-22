@@ -1,4 +1,5 @@
  ## Color Extractor App
+ 
 
 This is a simple Python application that extracts the dominant colors from an image. The app uses the k-means clustering algorithm to identify the most common colors in an image and then displays them in a list. Additionally, it stores the color information in a MySQL database.
 
