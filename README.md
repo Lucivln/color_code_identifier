@@ -24,6 +24,7 @@ pip install -r requirements.txt
 
 ### Usage
 * To use the app, simply run the `color_mod.py` file:
+  
 
 ```
 python color_mod.py
